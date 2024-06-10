@@ -7,6 +7,7 @@ using UnityEngine.Assertions.Must;
 
 public class GunCountKnob : MonoBehaviour
 {
+    public bool working;
     public TMP_Text Counter;
     public GameObject myXRKnob; 
     float theValue;
@@ -50,5 +51,6 @@ public class GunCountKnob : MonoBehaviour
         }
 
         Debug.Log("Counter.text = " + Counter.text);
+        working = true;
     }
 }

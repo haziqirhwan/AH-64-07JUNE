@@ -32,7 +32,7 @@ public class RaySwitch : MonoBehaviour
     public void Clickon()
     {
         RayInteractor.SetActive(true);
-        Debug.Log("RayInteractorPressed");
+        Debug.Log("RayInteractor ON Pressed");
         working = true;
         TurnonCanvasRay.SetActive(false);
         TurnoffCanvasRay.SetActive(true);
@@ -42,7 +42,7 @@ public class RaySwitch : MonoBehaviour
     public void Clickoff()
     {
         RayInteractor.SetActive(false);
-        Debug.Log("RayInteractorPressed");
+        Debug.Log("RayInteractor OFF Pressed");
         working = false;
         TurnonCanvasRay.SetActive(true);
         TurnoffCanvasRay.SetActive(false);

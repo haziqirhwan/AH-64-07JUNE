@@ -11,9 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainScene/SelectionScene.unity
     guid: f00c0e76aff756f4b9229edd0ed40660
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/MainScene/Summary.unity
-    guid: 21312d47f56d03f4db6d7f2ed940973d
+    guid: e2028737ca51e2945995c6f0250e4138
   - enabled: 1
     path: Assets/Scenes/MainScene/XRIToolkit.unity
     guid: e9a2b62a84da7d34ca5598813f19a008

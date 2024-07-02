@@ -101,6 +101,6 @@ public class ObjectDetector : MonoBehaviour
     }
     void LoadNextScene()
     {
-        SceneManager.LoadScene("Summary");
+        //SceneManager.LoadScene("Summary");
     }
 }
